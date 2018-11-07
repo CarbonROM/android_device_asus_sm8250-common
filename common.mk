@@ -27,6 +27,8 @@ $(call inherit-product, vendor/asus/sm8250-common/sm8250-common-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
 # Properties
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
