@@ -47,6 +47,7 @@ AB_OTA_PARTITIONS += \
     product \
     recovery \
     system \
+    system_ext \
     vbmeta \
     vbmeta_system \
     vendor
