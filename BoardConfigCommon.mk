@@ -208,7 +208,7 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
 # Vendor Security patch level
-VENDOR_SECURITY_PATCH := 2021-02-01
+VENDOR_SECURITY_PATCH := 2021-04-01
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
